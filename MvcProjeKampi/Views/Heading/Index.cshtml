@@ -93,14 +93,14 @@
                                     </a>
                                     <br />
                                     <small>
-                                        @item.HeadingDate
+                                        @item.HeadingDate.ToShortDateString();
                                     </small>
                                 </td>
                                 <td>
                                     @item.Writers.WriterName @item.Writers.WriterSurname
                                 </td>
                                 <td>
-                                    @item.HeadingStatus
+                                    @item.HeadingStatus.
                                 </td>
                                 <td class="project-state">
                                     <span class="@color">@item.Category.CategoryName</span>
